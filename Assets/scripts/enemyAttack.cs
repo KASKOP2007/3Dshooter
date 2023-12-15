@@ -16,7 +16,8 @@ public class enemyAttack : MonoBehaviour
     public Material allertMaterial;
     public Renderer ren;
 
-    private bool foundPlayer;
+
+private bool foundPlayer;
 
     // Start is called before the first frame update
 

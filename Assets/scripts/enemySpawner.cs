@@ -12,7 +12,8 @@ public class enemySpawner : MonoBehaviour
         for(int i = 0; i <  enemyCount; i++)
         {
             GameObject enemy = Instantiate(enemyPrefab, transform.position, Quaternion.identity);
-            
+            GameObject enemy2 = Instantiate(enemyPrefab, transform.position, Quaternion.identity);
+
         }
         
     }
